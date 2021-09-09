@@ -8,49 +8,164 @@
 
 
 <url>
-  <loc>https://grama.000webhostapp.com/</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-1/cw-1.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-1/cw-1.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-2/cw-2.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-2/cw-2.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-3/cw-3.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-3/cw-3.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-4/cw-4.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-4/cw-4.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-5/cw-5.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-5/cw-5.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-6/cw-6.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-6/cw-6.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-7/cw-7.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-7/cw-7.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://grama.000webhostapp.com/school/cw-8/cw-8.html</loc>
-  <lastmod>2020-04-11T14:30:16+00:00</lastmod>
+  <loc>https://grama.netlify.app/school/cw-8/cw-8.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/1/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/2/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/3/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/4/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/5/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/6/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/7/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/8/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/9/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/10/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/11/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/12/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/13/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/14/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/15/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/16/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/17/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/18/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/19/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/20/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/21/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/cwicz/22/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grama.netlify.app/index.html</loc>
+  <lastmod>2021-09-09T16:16:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 

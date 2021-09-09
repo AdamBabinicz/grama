@@ -10,14 +10,14 @@ satisfy all
  
 RewriteEngine on
 # przekierowanie dla przykładu www -> bez www
-RewriteCond %{HTTP_HOST} !^grama.000webhostapp.com$ [NC]
-RewriteRule ^(.*)$ http://grama.000webhostapp.com/$1 [L,R=301]
-RewriteRule ^index.php$ https://grama.000webhostapp.com [R=301,L]
-RewriteRule ^index.html$ http://grama.000webhostapp.com [R=301,L]
+RewriteCond %{HTTP_HOST} !^grama.netlify.app$ [NC]
+RewriteRule ^(.*)$ http://grama.netlify.app/$1 [L,R=301]
+RewriteRule ^index.php$ https://grama.netlify.app [R=301,L]
+RewriteRule ^index.html$ http://grama.netlify.app [R=301,L]
 RewriteRule ^index.(php|html|htm)$/ [R=301,L]
 
-RewriteCond %{HTTP_HOST} ^www\.grama.000webhostapp\.com$
-RewriteRule ^/?$ "https\:\/\/grama.000webhostapp\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.grama.netlify\.app$
+RewriteRule ^/?$ "https\:\/\/grama.netlify\.app\/" [R=301,L]
 
 #Ustawienie parametru charset
 AddCharset UTF-8 .html
@@ -28,7 +28,7 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_URI} !^/favicon.ico$ [NC]
 RewriteCond %{REQUEST_URI} /favicon(s)?\.?(gif|ico|jpe?g?|png)?$ [NC]
-RewriteRule (.*) https://grama.000webhostapp.com/images/cherry.svg [R=301,L]
+RewriteRule (.*) https://grama.netlify.app/images/cherry.svg [R=301,L]
 </IfModule>
 
 #Zaznaczenie lokalizacji robots.txt 
@@ -36,7 +36,7 @@ RewriteRule (.*) https://grama.000webhostapp.com/images/cherry.svg [R=301,L]
 RewriteBase /
 RewriteCond %{REQUEST_URI} !^/robots.txt$ [NC]
 RewriteCond %{REQUEST_URI} robots\.txt [NC]
-RewriteRule .* https://grama.000webhostapp.com/robots.txt [R=301,L]
+RewriteRule .* https://grama.netlify.app/robots.txt [R=301,L]
 </IfModule>
 
 # dla błędu 404
