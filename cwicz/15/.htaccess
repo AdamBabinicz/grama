@@ -1,0 +1,14 @@
+# HTID:13245031: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:13245031:
+AuthName "Wprowadz login i haslo otrzymane mailem lub poprzez sms"
+AuthUserFile "/storage/ssd4/488/13230488/public_html/cwicz/15/secur/.htpasswd"
+AuthType Basic
+Require valid-user
+ErrorDocument 401 /401.html
+
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>

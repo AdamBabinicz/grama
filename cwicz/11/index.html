@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt 11</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Montserrat:300,400,700|Mr+Dafoe&display=swap&subset=latin-ext");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        text-shadow: 0.05rem 0.05rem 0.05rem rgba(2, 2, 2, 0.3);
+        background: linear-gradient(
+            326deg,
+            rgba(0, 0, 0, 0.089),
+            rgba(0, 0, 0, 0.068)
+          ),
+          url("../../images/bg/bitten-cake.jpg") center/cover no-repeat;
+      }
+      .img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 0;
+      }
+      .img a {
+        display: flex;
+        align-items: center;
+      }
+      h1 {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        background-image: linear-gradient(
+          60deg,
+          rgba(255, 0, 106, 0.479),
+          rgba(255, 0, 106, 0.281)
+        );
+        padding: 2rem 4rem;
+        border-radius: 1rem;
+        box-shadow: 7px 7px 15px #dabbd0, -4px -4px 13px #fff,
+          inset 4px 4px 8px rgba(224, 209, 230, 0.2),
+          inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+      }
+      p {
+        margin-top: 4rem;
+        color: rgba(42, 10, 184, 0.911);
+        font-weight: 700;
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.746);
+        width: 50%;
+        line-height: 2rem;
+      }
+      span {
+        font-size: 1.5rem;
+        color: rgba(255, 0, 106, 0.842);
+      }
+      h2 {
+        font-size: 2rem;
+        color: rgba(255, 0, 106, 0.842);
+        margin: 5rem 3rem 0;
+      }
+      .pob {
+        padding: 20px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        width: 100%;
+        text-align: center;
+      }
+      .pob img {
+        width: 3rem;
+        height: auto;
+        z-index: 2;
+      }
+      a,
+      a img {
+        font-size: 1rem;
+        list-style: none;
+        text-decoration: none;
+        font-family: "Bungee Inline", cursive;
+        color: #fff;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      a:hover,
+      a img:hover,
+      a:focus {
+        opacity: 0.7;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      .out a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .out,
+      .pob img,
+      p.zip {
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        overflow: hidden;
+      }
+      p.zip {
+        color: #fff;
+        background: transparent;
+        z-index: 1;
+        padding: 0 0.5rem 0.1rem;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        font-weight: 300;
+      }
+      p.zip:hover {
+        background: rgba(255, 0, 106, 0.842);
+        border-radius: 0.5rem;
+        -webkit-transform: scale(1.2) translateY(-5px);
+        -ms-transform: scale(1.2) translateY(-5px);
+        transform: scale(1.2) translateY(-5px);
+        opacity: 0.8;
+      }
+      @media only screen and (min-width: 1200px) {
+        body {
+          width: 80%;
+          margin: 0 auto;
+        }
+        .img {
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+        }
+        h1 {
+          width: 50%;
+        }
+        .pob {
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+        }
+        .out {
+          margin: 0 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img">
+      <a href="../../index.html#projects"
+        ><img src="../../images/icon/icons8-go-back-64.png" alt="powrót"
+      /></a>
+      <img
+        src="../../images/icon/icons8-mommy-and-me-classes-64.png"
+        alt="edukacja"
+      />
+    </div>
+    <h1>Pobieraj i&nbsp;używaj!</h1>
+    <p>
+      materiały edukacyjne do nauki języka angielskiego <br /><br />
+      <span>PROJEKT 11</span>
+    </p>
+    <h2>dziękuję za zakup!</h2>
+    <div class="pob">
+      <div class="out">
+        <a href="matura-tlumaczenie.zip"
+          ><img src="../../images/icon/icons8-download-64.png" alt="download" />
+          <p class="zip">Matura tłumaczenie zdań.zip</p></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
