@@ -1223,13 +1223,18 @@
             /></a>
           </div>
         </div>
-        <p class="end">
+        <p id="yearRange" class="end">
           Materiały edukacyjne z języka angielskiego do nauki zdalnej 2020 -
-          2023
         </p>
       </div>
     </section>
     <!-- End Footer -->
+    <script>
+      var currentDate = new Date();
+      var currentYear = currentDate.getFullYear();
+      var yearRangeElement = document.getElementById("yearRange");
+      yearRangeElement.innerHTML = currentYear - 1 + " - " + currentYear;
+    </script>
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
