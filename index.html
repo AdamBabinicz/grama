@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="DESCRIPTION"
-      content="Materiały poleca mgr Ewa Gierczak-Kucharska - nauczyciel j. angielskiego z wieloletnim doświadczeniem w pracy z dziećmi oraz młodzieżą! ☎ +48536353933"
+      content="Autorskie ćwiczenia gramatyczne z języka angielskiego oraz zadania z układaniem zdań poleca mgr Ewa Gierczak-Kucharska! Pobieraj pliki! ☎ +48536353933"
     />
     <meta
       name="Nauka i popularyzowanie języka angielskiego na różnych poziomach."
@@ -46,6 +46,11 @@
     <meta name="handheldFriendly" content="true" />
     <link rel="canonical" href="https://grama.netlify.app" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Preconnect dla Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -53,17 +58,18 @@
       onload="this.media = 'all'"
     />
     <link
-      rel="preconnect"
       href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700&display=swap"
       rel="stylesheet"
       media="print"
       onload="this.media = 'all'"
     />
-    <title>Ćwiczenia gramatyczne z&nbsp;języka angielskiego</title>
+    <title>
+      Ćwiczenia gramatyczne z języka angielskiego - pliki, zadania i układy zdań
+    </title>
     <link rel="icon" type="image/svg+xml" href="/images/cherry.svg" />
     <link rel="shortcut icon" href="/images/cherry.svg" />
 
-    <!-- Poprawka pozycji ikony w lewym górnym rogu + klikalność -->
+    <!-- Style pomocnicze -->
     <style>
       .service-item .icon {
         z-index: 10 !important;
@@ -87,6 +93,22 @@
         z-index: 10 !important;
         pointer-events: auto !important;
         cursor: pointer !important;
+      }
+
+      /* Zachowanie oryginalnego wyglądu nagłówków projektów bez używania H2 */
+      .project-info .project-num {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 10px;
+        line-height: 1.2;
+      }
+
+      .popup__content .popup__title {
+        font-size: 3rem;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 10px;
       }
     </style>
   </head>
@@ -160,7 +182,7 @@
             <div class="project-info">
               <a href="#pop1"
                 ><div class="click"></div>
-                <h2>Project 1</h2>
+                <p class="project-num">Project 1</p>
                 <h3>Egzamin&nbsp;8 - klasisty</h3>
                 <p>30 PLN</p></a
               >
@@ -175,7 +197,7 @@
           <!--Popup -->
           <div class="popup" id="pop1">
             <div class="popup__content">
-              <h2>Projekt 1</h2>
+              <p class="popup__title">Projekt 1</p>
               <div class="popup__text">
                 <p>
                   - parafrazy zdań<br />
@@ -198,7 +220,7 @@
             <div class="project-info">
               <a href="#pop2"
                 ><div class="click"></div>
-                <h2>Project 2</h2>
+                <p class="project-num">Project 2</p>
                 <h3>Czasy 450 zdań</h3>
                 <p>15 PLN</p></a
               >
@@ -213,7 +235,7 @@
           <!--Popup -->
           <div class="popup" id="pop2">
             <div class="popup__content">
-              <h2>Projekt 2</h2>
+              <p class="popup__title">Projekt 2</p>
               <div class="popup__text">
                 <p>- wstawianie poprawnej formy czasownika</p>
               </div>
@@ -230,7 +252,7 @@
             <div class="project-info">
               <a href="#pop3"
                 ><div class="click"></div>
-                <h2>Project 3</h2>
+                <p class="project-num">Project 3</p>
                 <h3>Czasownik CAN</h3>
                 <p>10 PLN</p></a
               >
@@ -245,7 +267,7 @@
           <!--Popup -->
           <div class="popup" id="pop3">
             <div class="popup__content">
-              <h2>Projekt 3</h2>
+              <p class="popup__title">Projekt 3</p>
               <div class="popup__text">
                 <p>
                   - gra planszowa <br />
@@ -269,7 +291,7 @@
             <div class="project-info">
               <a href="#pop4"
                 ><div class="click"></div>
-                <h2>Project 4</h2>
+                <p class="project-num">Project 4</p>
                 <h3>Game 5 seconds</h3>
                 <p>10 PLN</p></a
               >
@@ -284,7 +306,7 @@
           <!--Popup -->
           <div class="popup" id="pop4">
             <div class="popup__content">
-              <h2>Projekt 4</h2>
+              <p class="popup__title">Projekt 4</p>
               <div class="popup__text">
                 <p>
                   - gra planszowa <br />
@@ -304,7 +326,7 @@
             <div class="project-info">
               <a href="#pop5"
                 ><div class="click"></div>
-                <h2>Project 5</h2>
+                <p class="project-num">Project 5</p>
                 <h3>Czasownik HAVE GOT</h3>
                 <p>10 PLN</p></a
               >
@@ -319,7 +341,7 @@
           <!--Popup -->
           <div class="popup" id="pop5">
             <div class="popup__content">
-              <h2>Projekt 5</h2>
+              <p class="popup__title">Projekt 5</p>
               <div class="popup__text">
                 <p>
                   - gra planszowa <br />
@@ -343,7 +365,7 @@
             <div class="project-info">
               <a href="#pop6"
                 ><div class="click"></div>
-                <h2>Project 6</h2>
+                <p class="project-num">Project 6</p>
                 <h3>Mega Box - Zastosowanie / Konstrukcje Czasów</h3>
                 <p>15 PLN</p></a
               >
@@ -359,7 +381,7 @@
           <!--Popup -->
           <div class="popup" id="pop6">
             <div class="popup__content">
-              <h2>Projekt 6</h2>
+              <p class="popup__title">Projekt 6</p>
               <div class="popup__text">
                 <p>
                   - mega box kolorowych kart <br />
@@ -381,7 +403,7 @@
             <div class="project-info">
               <a href="#pop7"
                 ><div class="click"></div>
-                <h2>Project 7</h2>
+                <p class="project-num">Project 7</p>
                 <h3>E8 Słownictwo Tematyczne</h3>
                 <p>25 PLN</p></a
               >
@@ -396,7 +418,7 @@
           <!--Popup -->
           <div class="popup" id="pop7">
             <div class="popup__content">
-              <h2>Projekt 7</h2>
+              <p class="popup__title">Projekt 7</p>
               <div class="popup__text">
                 <p>
                   - 14 krzyżówek obrazkowych z każdego działu tematycznego
@@ -419,7 +441,7 @@
             <div class="project-info">
               <a href="#pop8"
                 ><div class="click"></div>
-                <h2>Project 8</h2>
+                <p class="project-num">Project 8</p>
                 <h3>Reported Speech</h3>
                 <p>10 PLN</p></a
               >
@@ -434,7 +456,7 @@
           <!--Popup -->
           <div class="popup" id="pop8">
             <div class="popup__content">
-              <h2>Projekt 8</h2>
+              <p class="popup__title">Projekt 8</p>
               <div class="popup__text">
                 <p>
                   - przejrzysty i kolorowy szkielet czasów
@@ -459,7 +481,7 @@
             <div class="project-info">
               <a href="#pop9"
                 ><div class="click"></div>
-                <h2>Project 9</h2>
+                <p class="project-num">Project 9</p>
                 <h3>Strona Bierna</h3>
                 <p>10 PLN</p></a
               >
@@ -474,7 +496,7 @@
           <!--Popup -->
           <div class="popup" id="pop9">
             <div class="popup__content">
-              <h2>Projekt 9</h2>
+              <p class="popup__title">Projekt 9</p>
               <div class="popup__text">
                 <p>
                   - zamiana zdań ze strony czynnej na bierną
@@ -501,7 +523,7 @@
             <div class="project-info">
               <a href="#pop10"
                 ><div class="click"></div>
-                <h2>Project 10</h2>
+                <p class="project-num">Project 10</p>
                 <h3>Czasy - Opowieści</h3>
                 <p>10 PLN</p></a
               >
@@ -516,7 +538,7 @@
           <!--Popup -->
           <div class="popup" id="pop10">
             <div class="popup__content">
-              <h2>Projekt 10</h2>
+              <p class="popup__title">Projekt 10</p>
               <div class="popup__text">
                 <p>
                   - tworzenie opowieści na podstawie czasów
@@ -537,7 +559,7 @@
             <div class="project-info">
               <a href="#pop11"
                 ><div class="click"></div>
-                <h2>Project 11</h2>
+                <p class="project-num">Project 11</p>
                 <h3>Matura Tłumaczenie Zdań</h3>
                 <p>10 PLN</p></a
               >
@@ -552,7 +574,7 @@
           <!--Popup -->
           <div class="popup" id="pop11">
             <div class="popup__content">
-              <h2>Projekt 11</h2>
+              <p class="popup__title">Projekt 11</p>
               <div class="popup__text">
                 <p>- tłumaczenie fragmentów zdań na poziomie maturalnym</p>
               </div>
@@ -569,7 +591,7 @@
             <div class="project-info">
               <a href="#pop12"
                 ><div class="click"></div>
-                <h2>Project 12</h2>
+                <p class="project-num">Project 12</p>
                 <h3>Przedimek A/AN</h3>
                 <p>10 PLN</p></a
               >
@@ -584,7 +606,7 @@
           <!--Popup -->
           <div class="popup" id="pop12">
             <div class="popup__content">
-              <h2>Projekt 12</h2>
+              <p class="popup__title">Projekt 12</p>
               <div class="popup__text">
                 <p>
                   - plansza z grą <br />
@@ -606,7 +628,7 @@
             <div class="project-info">
               <a href="#pop13"
                 ><div class="click"></div>
-                <h2>Project 13</h2>
+                <p class="project-num">Project 13</p>
                 <h3>Present Simple</h3>
                 <p>10 PLN</p></a
               >
@@ -621,7 +643,7 @@
           <!--Popup -->
           <div class="popup" id="pop13">
             <div class="popup__content">
-              <h2>Projekt 13</h2>
+              <p class="popup__title">Projekt 13</p>
               <div class="popup__text">
                 <p>
                   - zdania twierdzące, przeczące i pytające <br />
@@ -643,7 +665,7 @@
             <div class="project-info">
               <a href="#pop14"
                 ><div class="click"></div>
-                <h2>Project 14</h2>
+                <p class="project-num">Project 14</p>
                 <h3>Present Continuous</h3>
                 <p>10 PLN</p></a
               >
@@ -658,7 +680,7 @@
           <!--Popup -->
           <div class="popup" id="pop14">
             <div class="popup__content">
-              <h2>Projekt 14</h2>
+              <p class="popup__title">Projekt 14</p>
               <div class="popup__text">
                 <p>
                   - czynności wykonywane w chwili mówienia <br />
@@ -680,7 +702,7 @@
             <div class="project-info">
               <a href="#pop15"
                 ><div class="click"></div>
-                <h2>Project 15</h2>
+                <p class="project-num">Project 15</p>
                 <h3>Present Perfect</h3>
                 <p>10 PLN</p></a
               >
@@ -695,7 +717,7 @@
           <!--Popup -->
           <div class="popup" id="pop15">
             <div class="popup__content">
-              <h2>Projekt 15</h2>
+              <p class="popup__title">Projekt 15</p>
               <div class="popup__text">
                 <p>
                   - wstawianie czasowników w odpowiedniej formie <br />
@@ -718,7 +740,7 @@
             <div class="project-info">
               <a href="#pop16"
                 ><div class="click"></div>
-                <h2>Project 16</h2>
+                <p class="project-num">Project 16</p>
                 <h3>Past Simple</h3>
                 <p>10 PLN</p></a
               >
@@ -733,7 +755,7 @@
           <!--Popup -->
           <div class="popup" id="pop16">
             <div class="popup__content">
-              <h2>Projekt 16</h2>
+              <p class="popup__title">Projekt 16</p>
               <div class="popup__text">
                 <p>
                   - wstawianie odpowiedniej formy <br />
@@ -755,7 +777,7 @@
             <div class="project-info">
               <a href="#pop17"
                 ><div class="click"></div>
-                <h2>Project 17</h2>
+                <p class="project-num">Project 17</p>
                 <h3>Past Perfect</h3>
                 <p>10 PLN</p></a
               >
@@ -770,7 +792,7 @@
           <!--Popup -->
           <div class="popup" id="pop17">
             <div class="popup__content">
-              <h2>Projekt 17</h2>
+              <p class="popup__title">Projekt 17</p>
               <div class="popup__text">
                 <p>
                   - wstawianie odpowiedniej formy czasownika <br />
@@ -792,7 +814,7 @@
             <div class="project-info">
               <a href="#pop18"
                 ><div class="click"></div>
-                <h2>Project 18</h2>
+                <p class="project-num">Project 18</p>
                 <h3>Past Perfect / Past Perfect Continuous</h3>
                 <p>10 PLN</p></a
               >
@@ -807,7 +829,7 @@
           <!--Popup -->
           <div class="popup" id="pop18">
             <div class="popup__content">
-              <h2>Projekt 18</h2>
+              <p class="popup__title">Projekt 18</p>
               <div class="popup__text">
                 <p>
                   - wyjaśnienie czasów <br />
@@ -830,7 +852,7 @@
             <div class="project-info">
               <a href="#pop19"
                 ><div class="click"></div>
-                <h2>Project 19</h2>
+                <p class="project-num">Project 19</p>
                 <h3>Tryby warunkowe</h3>
                 <p>10 PLN</p></a
               >
@@ -845,7 +867,7 @@
           <!--Popup -->
           <div class="popup" id="pop19">
             <div class="popup__content">
-              <h2>Projekt 19</h2>
+              <p class="popup__title">Projekt 19</p>
               <div class="popup__text">
                 <p>
                   - proste oraz przejrzyste wytłumaczenie zastoswania trybów
@@ -869,7 +891,7 @@
             <div class="project-info">
               <a href="#pop20"
                 ><div class="click"></div>
-                <h2>Project 20</h2>
+                <p class="project-num">Project 20</p>
                 <h3>Parafrazy zdań</h3>
                 <p>10 PLN</p></a
               >
@@ -884,7 +906,7 @@
           <!--Popup -->
           <div class="popup" id="pop20">
             <div class="popup__content">
-              <h2>Projekt 20</h2>
+              <p class="popup__title">Projekt 20</p>
               <div class="popup__text">
                 <p>
                   - 50 zdań z parafrazami
@@ -905,7 +927,7 @@
             <div class="project-info">
               <a href="#pop21"
                 ><div class="click"></div>
-                <h2>Project 21</h2>
+                <p class="project-num">Project 21</p>
                 <h3>Funkcje językowe</h3>
                 <p>10 PLN</p></a
               >
@@ -920,7 +942,7 @@
           <!--Popup -->
           <div class="popup" id="pop21">
             <div class="popup__content">
-              <h2>Projekt 21</h2>
+              <p class="popup__title">Projekt 21</p>
               <div class="popup__text">
                 <p>
                   - funkcje językowe (50 zdań)
@@ -942,7 +964,7 @@
             <div class="project-info">
               <a href="#pop22"
                 ><div class="click"></div>
-                <h2>Project 22</h2>
+                <p class="project-num">Project 22</p>
                 <h3>Present Perfect Continuous</h3>
                 <p>10 PLN</p></a
               >
@@ -957,7 +979,7 @@
           <!--Popup -->
           <div class="popup" id="pop22">
             <div class="popup__content">
-              <h2>Projekt 22</h2>
+              <p class="popup__title">Projekt 22</p>
               <div class="popup__text">
                 <p>
                   - tworzenie zdań przeczacych i pytajacych
